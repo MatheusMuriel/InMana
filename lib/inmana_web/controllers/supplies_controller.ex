@@ -7,11 +7,18 @@ defmodule InmanaWeb.SuppliesController do
   action_fallback FallbackController
 
   def create(conn, params) do
-    # Estrutura de controle de Match Patern
     with {:ok, %Supply{} = supply} <- Inmana.create_supply(params) do
       conn
       |> put_status(:created)
       |> render("create.json", supply: supply)
+    end
+  end
+
+  def show(conn, %{"id" => uuid}) do
+    with {:ok, %Supply{} = supply} <- Inmana.get_supply(uuid) do
+      conn
+      |> put_status(:ok)
+      |> render("show.json", supply: supply)
     end
   end
 end
