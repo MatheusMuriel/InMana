@@ -2,7 +2,7 @@ defmodule Inmana.Repo.Migrations.CreateSuppliesTable do
   use Ecto.Migration
 
   def change do
-    create table(:suplies) do
+    create table(:supplies) do
       add :description, :string
       add :expiration_date, :date
       add :responsible, :string
