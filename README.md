@@ -4,9 +4,9 @@
   <img src="./git-docs/elixir_logo.svg" width="250"/>
 </p>
 
-<center>
+<p align="center">
   <img src="./git-docs/inmana_logo.png" width="200"/>
-</center>
+</p>
 
 <h4 align="center">Next Level Week 5.0 🚀</h4>
 <h4 align="center">Project by @Rocketseat</h4>
@@ -56,8 +56,6 @@ This project use:
 - [Octo](https://github.com/elixir-ecto/ecto)
 - [PostgreSQL](https://www.postgresql.org/)
 <br>
-<br>
-
 
 <a id="install"></a>
 
