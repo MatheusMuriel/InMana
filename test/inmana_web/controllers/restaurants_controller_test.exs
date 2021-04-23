@@ -1,5 +1,5 @@
 defmodule InmanaWeb.RestaurantsControllerTest do
-  use InmanaWeb.ConnCase
+  use InmanaWeb.ConnCase, async: true
 
   describe "create/2" do
     test "When all params are valid, creates the user", %{conn: conn} do
