@@ -16,7 +16,7 @@ defmodule Inmana.WelcomerTest do
       assert result == expected_result
     end
 
-    test "When the user is more that 18 yers old, returns the Welcome." do
+    test "When the user is not special and is more that 18 yers old, returns the Welcome." do
       # Setup
       params = %{"name" => "Jacquin", "age" => "56"}
       expected_result = {:ok, "Welcome jacquin."}
@@ -28,7 +28,7 @@ defmodule Inmana.WelcomerTest do
       assert result == expected_result
     end
 
-    test "When the user is above that 18 yers old, returns You shall not pass." do
+    test "When the user is not special and is under age, returns You shall not pass." do
       # Setup
       params = %{"name" => "Maggie", "age" => "5"}
       expected_result = {:error, "You shall not pass maggie."}
