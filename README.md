@@ -17,7 +17,6 @@
   <a href="#techs">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#install">Install</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#commands">Commands</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
