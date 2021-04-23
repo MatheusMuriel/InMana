@@ -20,14 +20,15 @@
   <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<h1 align="center">
+<p align="center">
   <a href="https://www.linkedin.com/in/matheusmuriel/">
     <img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-1781EB?style=for-the-badge&logo=linkedin&logoColor=fff&labelColor=1781EB)%5D">
   </a>
+  &nbsp;
   <a href="https://matheusmuriel.medium.com/">
     <img alt="Medium" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white">
   </a>
-</h1>
+</p>
 <br>
 
 <a id="project"></a>
